@@ -4,7 +4,7 @@
 
 $(info )
 $(info Your R_HOME environment variable should be set. It is R_HOME="$(R_HOME)")
-$(info Your R_ARCH environment variable may be set.    It is R_HOME="$(R_ARCH)")
+$(info Your R_ARCH environment variable may be set.    It is R_ARCH="$(R_ARCH)")
 $(info )
 
 r_libdir1x = ${R_HOME}/bin${R_ARCH}
