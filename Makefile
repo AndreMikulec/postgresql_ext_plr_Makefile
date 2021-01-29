@@ -19,7 +19,7 @@ OBJS		:= $(SRCS:.c=.o) $(WIN32RES)
 EXTENSION	 = plr
 DATA	     = plr--8.4.1.sql plr--8.4--8.4.1.sql plr--unpackaged--8.4.1.sql
 
-DATA_built = plr.sql
+### DATA_built = plr.sql
 PGFILEDESC = "PL/R - R Procedural Language for PostgreSQL"
 
 REGRESS		 = plr
